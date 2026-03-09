@@ -376,3 +376,30 @@ p {
         }
     }
 }
+
+
+.img{
+    h1{
+        font-weight: 400;
+        font-size: 54px;
+        font-family: 'Tinos', serif;
+        color: #000000;
+        text-align: center;
+        margin-top: 101px;
+        margin-bottom: 60px;
+    }
+}
+
+.img_cards{
+    display: flex;
+    margin-bottom: 30px;
+    gap: 30px;
+    .stakan2{
+        width: 255px;
+        height: 274px;
+    }
+    .stakan3{
+        width: 255px;
+        height: 274px;
+    }
+}
