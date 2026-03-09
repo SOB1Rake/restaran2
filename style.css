@@ -307,11 +307,14 @@ p {
 
 
 .cards {
-
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
 
     .card {
         background: #FFFFFF;
         max-width: 350px;
+        width: 100%;
         height: 510px;
     }
 }
